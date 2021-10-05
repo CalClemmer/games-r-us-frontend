@@ -34,6 +34,11 @@ body {
   color: white;
 }
 
+.developerCards .card-image {
+  width: 1000px;
+  height: 2000px;
+}
+
 .card {
   text-decoration: "none";
 }
