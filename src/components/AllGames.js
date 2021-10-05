@@ -21,7 +21,8 @@ const AllGames = () => {
   function allGamesList(n) {
     let gameArr = [];
     for (let i = 0; i < n; i++) {
-      if (allGames[i]["gamedata"]["name"]) {
+      if (allGames[i]["cover"]) {
+        console.log(allGames[i]);
         gameArr.push(
           <Col>
             <GameCard gameData={allGames[i]} width={10}></GameCard>
